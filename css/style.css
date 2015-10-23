@@ -1,0 +1,57 @@
+/*
+ * Page: Login
+ * ----------------------
+ */
+.login-logo{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.login-logo a {
+  color: #444;
+}
+.login-page{
+  background: #d2d6de;
+}
+.login-box {
+  width: 360px;
+  margin: 7% auto;
+}
+.login-box-body {
+  background: #fff;
+  padding: 20px;
+  color: #444;
+  border-top: 0;
+  color: #666;
+}
+.login-box-body .form-control-feedback, {
+  color: #777;
+}
+.login-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+.form-control {
+  border-radius: 0 !important;
+  box-shadow: none;
+  border-color: #d2d6de;
+}
+.icheck label {
+  padding-left: 0!important;
+}
+.btn.btn-flat {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-width: 1px;
+}
+@media (max-width: 992px) {
+  .login-box,
+  .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}

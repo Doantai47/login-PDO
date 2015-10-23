@@ -1,0 +1,34 @@
+Mô tả:
+	- Cho 1 form đăng nhập bao gồm 2 field email và password ở file login.php
+	- Cho các template .html có sẵn. Sau khi sử dụng xong phải xóa template đi.
+
+Yêu cầu bài tập:
+Phần I:
+	- Sử dụng dòng lệnh trong file db/query.sql để import hoặc chạy trong MySQL để tạo DB, table, và dữ liệu
+		Bảng dữ liệu users đã có sẵn: (mật khẩu đã được mã hóa MD5)
+			+ email: admin@qsoftvietnam.com, password: Qsoftvietnam2015
+			+ email: user1@qsoftvietnam.com, password: Qsoftvietnam2014
+			+ email: user2@qsoftvietnam.com, password: Qsoftvietnam2013
+			+ email: user3@qsoftvietnam.com, password: Qsoftvietnam2012
+	- Sử dụng PHP OOP và PDO MySQL để kết nối db
+
+Phần II:
+	- Sử dụng PHP OOP tạo các object user đã được lấy ra từ db:
+	- Kiểm tra người dùng đăng nhập qua form login: Sử dụng lại đăng nhập / đăng xuất bằng session từ bài trước.
+	- Xuất thông báo đăng nhập thành công hay thất bại trở lại form login(thành công sẽ vào trang dùng template dashboard.html)
+
+Phần III:
+	- Đối với tài khoản email: admin@qsoftvietnam.com, password: Qsoftvietnam2015 :
+		+ Xem được tất cả thông tin các tài khoản khác(dasboard của admin hiển thị tất cả người dùng và thông tin)
+	- Đối với các tài khoản thường khác:
+		+ Chỉ xem được các thông tin của bản thân
+	- Có thông báo thành công và thất bại ra màn hình.
+
+
+Những yêu cầu khác:
+	- Có sử dụng OOP PHP để tạo các class và object
+	- Có sử dụng PHP Exception Handling
+
+
+Cách nộp bài:
+	- Tạo branch mới theo format php2/teamname_username. VD: php2/team3_tuyennn
